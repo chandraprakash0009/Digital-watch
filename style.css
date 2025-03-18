@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: #131313; //changing the background colour
+}
+.clock{
+    position: absolute; /* placing the content in centre*/
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex; /* showing hands in one line*/
+    font-family: sans-serif;
+}
+
+.hand{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.hand-val {
+    background: #090909;
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
+
